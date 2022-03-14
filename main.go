@@ -20,7 +20,7 @@ import (
 )
 
 func defaultCA() string {
-	dir := dcrutil.AppDataDir("dcrwallet", false)
+	dir := dcrutil.AppDataDir("dcrd", false)
 	return filepath.Join(dir, "rpc.cert")
 }
 
